@@ -2,6 +2,6 @@ import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
 export default defineConfig({
-  base: '/rum-dashboard/',  // 👈 matches your repo name
+  base: '/rum-dashboard/', 
   plugins: [react()],
 });
